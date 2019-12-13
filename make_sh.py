@@ -10,6 +10,7 @@
 
 
 # update this list with directories you want to upload
+# NOTE: If you change the path, make sure you also update the name variable to make sure the path is stripped from the directory name
 DPR_directories = ['../pur1990', '../pur1991', '../pur1992', '../pur1993', '../pur1994', '../pur1995', '../pur1996', '../pur1997', '../pur1998', '../pur1999', '../pur2000', '../pur2001', '../pur2002', '../pur2003', '../pur2004', '../pur2005', '../pur2006', '../pur2007', '../pur2008', '../pur2009', '../pur2010', '../pur2011', '../pur2012', '../pur2013', '../pur2014', '../pur2015', '../pur2016', '../pur2017']
 
 for DIR in DPR_directories:
