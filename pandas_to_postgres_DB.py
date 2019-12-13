@@ -22,7 +22,6 @@ conn = psycopg2.connect(conn_string)
 cursor = conn.cursor()
 
 def load_data(schema, table):
-    data_year = os.getcwd().split("/")[-1].strip("pur") # get year based on directory
     sql_command = "SELECT * FROM {}.{};".format(str(schema), str(table))
     # Load the data
     data = pd.read_sql(sql_command, conn)
